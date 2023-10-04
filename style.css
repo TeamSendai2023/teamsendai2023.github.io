@@ -374,6 +374,16 @@ color:#242424;
 border-bottom:2px solid #f0f0f0;
 }
 
+.post h4{
+  margin:0px 0 5px;
+  padding-bottom:5px;
+  font-size:115%;
+  font-weight:normal;
+  color:#242424;
+}
+
+
+
 .post .box{
   padding:0px 40px;
   margin:0px 40px;
