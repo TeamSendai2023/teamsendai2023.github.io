@@ -52,7 +52,7 @@ width:100%;
 #header{
 position: -webkit-sticky;
 position: sticky;
-top: 0;
+top:0;
 background-color:rgb(230, 249, 255);
 z-index:100;
 margin:0;
@@ -144,23 +144,48 @@ color:#666;
 /* グリッド
 **************************/
 .gridWrapper{
-padding-bottom:20px;
+padding-bottom:10px;
 clear:both;
 overflow:hidden;
 }
 
 .grid h3{
 padding:13px 0;
-margin-bottom:5px;
+margin-bottom:10px;
 font-weight:bold;
 border-top:1px solid #ccc;
 border-bottom:1px solid #ccc;
+/**/
+width:220px;
+
 }
 
-.grid p{padding:5px 0;}
+.gridWrapper .grid{
+ margin:0 10px;
+ /**/display:flex;
+}
+
+
+.gridWrapper .box{
+ 
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5%;
+ 
+  
+
+}
+
+
+
+.grid p{
+  padding:5px 0;
+  /**/
+  width:220px;
+}
 
 .grid p.img{
-float:left;
+/*float:left;*/
 margin:3px 0 0 0;
 }
 
@@ -182,7 +207,9 @@ border:0;
 background:transparent;
 }
 
-#footer .grid p{padding:0;}
+#footer .grid p{
+  padding:0;
+}
 
 
 /*************
@@ -239,18 +266,24 @@ margin:3px 0 10px 10px;
 /* フッター
 *************/
 #footer{
-  background-color:rgb(230, 249, 255);
+background-color:rgb(230, 249, 255);
 clear:both;
-padding:20px 0;
+padding:0;
+margin-bottom:0;
 overflow:hidden;
+bottom:0;
 }
 
 .tel strong{
 font-size:20px;
 font-weight:bold;
+margin:0;
 }
 
-#footer .copyright{font-size:11px;}
+#footer .copyright{
+  font-size:11px;
+  margin:0;
+}
 
 
 /*************
@@ -485,13 +518,18 @@ display:table;
 border-collapse:separate;
 border-spacing:20px;
 margin-left:-20px;
-width:980px;
+/**/
+width:100%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
 /* グリッド共通 ベース:トップページ4カラム */
 .grid{
 width:220px;
 display:table-cell;
+
 }
 
 #sub.gridWrapper{width:980px;}
@@ -586,7 +624,7 @@ text-align:center;
 #header .logo,#footer .logo{
 float:none;
 text-align:center;
-padding:10px 5px;
+padding:0px 5px;
 }
 
 /* トップナビゲーション */
