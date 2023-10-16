@@ -74,7 +74,7 @@ font-weight:normal;
 /*************
 /* ロゴ
 *************/
-#header .logo{
+/*#header .logo{
 float:left;
 padding:0px 0 0;
 }
@@ -92,7 +92,7 @@ line-height:1.3;
   line-height:1.3;
   font-weight:bold;
   margin-left: 30px;
-}
+}*/
 
 .header-logo {
   display: flex;
