@@ -80,24 +80,22 @@ padding:0px 0 0;
 }
 
 .logo a{
-font-size:35px;
+font-size:18px;
 color:#444;
 font-weight:bold;
 line-height:1.3;
 }
 
-
-.logo span{
-font-size:15px;
-font-weight:normal;
-}
-
 #header h1{
-font-size:18px;
-color:#444;
-margin:10px 0 0;
-line-height: 0.05em
+  font-size:35px;
+  color:#444;
+  line-height:1.3;
+  font-weight:bold;
+  margin-left: 30px;
 }
+
+
+
 
 
 /**************************
@@ -260,15 +258,12 @@ margin:3px 0 10px 10px;
 
 .border,ul.list img{border:4px solid #ebebeb;}
 
-
-/*************
-/* フッター
-*************/
+/*movie css*/
 .movie {
   width: 930px;
   max-width: 90%;
   background-color: #f8f8f8;
-  padding: 50px 60px;
+  padding: 0px 60px;
   margin-top: 55px;
   margin-left: auto;
   margin-right: auto;
