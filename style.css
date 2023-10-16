@@ -302,21 +302,27 @@ margin:3px 0 10px 10px;
 background-color:rgb(230, 249, 255);
 clear:both;
 padding:0;
-margin-bottom:0;
+margin:0;
 overflow:hidden;
-bottom:0;
 height: 100px;
+
+display: flex;
 }
 
-.tel strong{
-font-size:20px;
-font-weight:bold;
-margin:0;
-}
 
 #footer .copyright{
-  font-size:11px;
-  margin:0;
+  font-size:15px;
+  margin: 15px 20px 10px;
+}
+
+#footer .mail{
+  font-size:15px;
+  margin: 10px 20px;
+}
+
+#footer .molbot{
+  justify-content: flex-end;
+  margin-right: 20px;
 }
 
 
