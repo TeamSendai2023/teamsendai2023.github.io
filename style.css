@@ -323,6 +323,14 @@ display: flex;
 #footer .molbot{
   justify-content: flex-end;
   margin-right: 20px;
+  
+}
+#footer .molbot-text{
+  justify-content: flex-end;
+  float:right;  
+  margin-top: 30px;
+  font-size:15px;
+  text-align: center;
 }
 
 
