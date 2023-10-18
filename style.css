@@ -328,7 +328,7 @@ display: flex;
 #footer .molbot-text{
   justify-content: flex-end;
   float:right;  
-  margin-top: 30px;
+  margin-top: 25px;
   font-size:15px;
   text-align: center;
 }
@@ -447,12 +447,18 @@ border-bottom:2px solid #f0f0f0;
 }
 
 .post h3{
+
+
 margin:10px 0 30px;
 padding-bottom:10px;
 font-size:150%;
 font-weight:normal;
 color:#242424;
 border-bottom:2px solid #f0f0f0;
+
+/*below two sentences ia for jump*/
+padding-top: 100px;
+margin-top: -100px;
 }
 
 .post h4{
