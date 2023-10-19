@@ -476,9 +476,9 @@ margin-top: -100px;
 }
 
 .post h4{
-  margin:0px 0 5px;
-  padding-bottom:5px;
-  font-size:115%;
+  margin:0px;
+  padding-bottom:0px;
+  font-size:20px;
   font-weight:normal;
   color:#242424;
 }
