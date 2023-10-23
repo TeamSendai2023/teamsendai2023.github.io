@@ -17,12 +17,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* -------------------------------------------------------------- */
 
 p{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body{
 color:#555;
-font:14px Times New Roman,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+font:12px verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
 background:#fbffff;
 -webkit-text-size-adjust:100%;
@@ -233,7 +233,7 @@ padding:10px 0;
 margin-bottom:20px;
 border-radius:6px;
 overflow:hidden;
-font-size:16px;
+font-size:14px;
 }
 
 section.content p{margin-bottom:5px;}
