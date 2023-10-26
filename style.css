@@ -164,7 +164,9 @@ overflow:hidden;
 }
 
 .grid h3{
-
+font-size: 20px;
+padding:1.3 0;
+text-align: center;
 margin-bottom:20px 0;
 font-weight:bold;
 border-top:1px solid #ccc;
@@ -181,14 +183,11 @@ width:220px;
 
 
 .gridWrapper .box{
- 
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 5%;
- 
-  
-
 }
+
 
 
 
@@ -254,8 +253,8 @@ section.content p{
 }
 
 h3.heading{
-padding-top: 20px;
-margin:30px 0 10 0;
+
+margin:10px 0 20px;
 font-size:30px;
 border-bottom:2px solid #ccc;
 }
@@ -288,14 +287,24 @@ ul.future li:before{
 }
 
 ul.future li{
-
   font-size:16px;
   text-indent: -10px;
   margin-left: 1.2em;
 	text-indent: -1.2em;
 }
 
-ul.future li:last-child{padding-bottom:0;}
+ul.elsi li:before{
+  content:"・"
+}
+
+ul.elsi li{
+  font-size:16px;
+  text-indent: -10px;
+  margin-left: 1.2em;
+	text-indent: -1.2em;
+}
+
+ul.elsi li:last-child{padding-bottom:0;}
 
 
 /*movie css*/
@@ -427,7 +436,7 @@ line-height:1.35;
 clear:both;
 width:100%;
 height:30px;
-margin:5px 0 20px;
+margin:-30px 0 10px;
 }
 
 .pagenav a{
@@ -489,16 +498,15 @@ color:#333;
 
 .post h3{
 
-
-
 font-size:24px;
 font-weight:normal;
 color:#242424;
 border-bottom:2px solid #f0f0f0;
+margin-bottom: 20px;
 
 /*below two sentences ia for jump*/
-padding-top: 110px;
-margin-top: -110px;
+padding-top: 85px;
+margin-top: -85px;
 }
 
 .post h4{
@@ -525,23 +533,6 @@ border-left:5px solid #ccc;
  
 .post blockquote p{padding:5px 0;}
 
-.post table{
-border-collapse:collapse;
-margin:10px 0;
-}
-
-.post table th,.post table td{
-padding:12px;
-border:1px solid #ccc;
-}
-
-.post table th{
-text-align:right;
-font-weight:bold;
-letter-spacing:1px;
-white-space:nowrap;
-background:#eee;
-}
 
 .post dt{font-weight:bold;}
 
@@ -554,6 +545,12 @@ background:#eee;
   display: inline-block;
   padding:0 20px;
   text-align: centers;
+}
+
+/*テーブル用の設定*/
+.post .table{
+  text-align: center;
+  font-size: 18px;
 }
 
 
