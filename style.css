@@ -169,8 +169,8 @@ padding:10px 0;
 text-align: center;
 margin-bottom:20px 0;
 font-weight:bold;
-border-top:1px solid #ccc;
-border-bottom:1px solid #ccc;
+border-top:1px solid #d1cdcd;
+border-bottom:1px solid #d1cdcd;
 /**/
 width:250px;
 
@@ -253,10 +253,9 @@ section.content p{
 }
 
 h3.heading{
-
 margin:10px 0 20px;
 font-size:30px;
-border-bottom:2px solid #ccc;
+border-bottom:2px solid #848484;
 }
 
 
@@ -363,25 +362,31 @@ display: flex;
 
 #footer .copyright{
   font-size:15px;
-  margin: 15px 20px 10px;
+  margin: 10px 15px 5px;
 }
 
 #footer .mail{
   font-size:15px;
-  margin: 10px 20px;
+  margin-top: 0px;
+  margin-left: 15px;
 }
 
 #footer .molbot{
+  
   justify-content: flex-end;
   margin-right: 20px;
+  
   
 }
 #footer .molbot-text{
   justify-content: flex-end;
   float:right;  
   margin-top: 25px;
-  padding-left:10px;
-  font-size:15px;
+  padding-top: -25px;
+  padding-left:20px;
+  margin-right:30px;
+  
+  font-size:16px;
   text-align: center;
 }
 
@@ -504,7 +509,7 @@ color:#333;
 font-size:24px;
 font-weight:normal;
 color:#242424;
-border-bottom:2px solid #f0f0f0;
+border-bottom:2px solid #cacaca;
 margin-bottom: 20px;
 
 /*below two sentences ia for jump*/
@@ -561,16 +566,16 @@ border-left:5px solid #ccc;
 
 
 .post .name{
-  padding:0 20px;
-  margin:0 20px;
+  padding:10px 40px 0px;
+  margin:0 40px;
   font-size:30px;
   list-style:none;
 }
 
 .post .introduction{
-  padding:0 20px;
-  margin:0 20px;
-  font-size:15px;
+  padding:0 40px;
+  margin:0 40px;
+  font-size:16px;
   list-style:none;
 }
 
@@ -850,10 +855,6 @@ text-align:center;
 border:0;
 }
 
-#footer {
-  padding-top:20px;
-}
-
 
 
 #footer .grid:last-child{padding-top:20px;}
@@ -882,6 +883,7 @@ padding:10px 5px 20px;
 
 
 @media only screen and (max-width:640px){
+
 #footer .grid p{text-align:center;}
 
 .grid img{float:none;margin:20px auto 10px;max-width:100%;height:auto;}
