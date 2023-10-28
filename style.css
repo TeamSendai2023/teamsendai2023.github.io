@@ -17,13 +17,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* -------------------------------------------------------------- */
 
 p{
-  font-size: 16px;
+  font-size: 18px;
   line-height:1.4;
+  word-break: break-all;
 }
 
 body{
 color:#030303;
-font:12px arial,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+font:12px "Sylfaen","ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
 background:#fbffff;
 -webkit-text-size-adjust:100%;
@@ -171,6 +172,7 @@ margin-bottom:20px 0;
 font-weight:bold;
 border-top:1px solid #d1cdcd;
 border-bottom:1px solid #d1cdcd;
+font-weight: bold;
 /**/
 width:250px;
 
@@ -254,8 +256,10 @@ section.content p{
 
 h3.heading{
 margin:10px 0 20px;
-font-size:30px;
+font-size:40px;
 border-bottom:2px solid #848484;
+font-weight: bold;
+text-align: center;
 }
 
 
@@ -480,24 +484,26 @@ background:url(images/bullet.png) no-repeat 0 8px;
 .post h1{
 margin:20px 0;
 padding:5px 0;
-font-size:150%;
+font-size:180%;
 color:#000;
 border-bottom:3px solid #f0f0f0;
+font-weight: bold;
 }
 
 .post h2{
 border-bottom:2px solid #f0f0f0;
 margin:10px 0;
 padding-bottom:2px;
-font-size:130%;
+font-size:160%;
 font-weight:normal;
 color:#000000;
+font-weight: bold;
 
 }
 
 .post h3{
 
-font-size:24px;
+font-size: 28px;
 font-weight:normal;
 color:#000000;
 border-bottom:2px solid #cacaca;
@@ -506,14 +512,18 @@ margin-bottom: 20px;
 /*below two sentences ia for jump*/
 padding-top: 85px;
 margin-top: -85px;
+font-weight: bold;
 }
 
 .post h4{
-  font-size:20px;
+  
+  font-size:22px;
   margin:0px;
   padding-bottom:0px; 
   font-weight:normal;
   color:#000000;
+  font-weight: bold;
+
 }
 
 
@@ -559,14 +569,14 @@ border-left:5px solid #ccc;
 .post .name{
   padding:10px 40px 0px;
   margin:0 40px;
-  font-size:30px;
+  font-size:36px;
   list-style:none;
 }
 
 .post .introduction{
   padding:0 40px;
   margin:0 40px;
-  font-size:16px;
+  font-size:18px;
   list-style:none;
 }
 
@@ -646,7 +656,7 @@ position:relative;
 
 #topnav a{
 color:#ffffff;
-font-size:16px;
+font-size:22px;
 display:block;
 padding:22px 6px;
 line-height:1.2;
@@ -683,6 +693,7 @@ background:#656464;
 }
 
 #topnav li li a{
+font-size: 16px;
 padding:10px;
 border:0;
 }
@@ -727,6 +738,7 @@ padding:0px 5px;
 
 /* トップナビゲーション */
 nav#mainNav{
+
 clear:both;
 width:100%;
 margin:0 auto;
